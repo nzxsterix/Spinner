@@ -1,0 +1,42 @@
+body{
+
+    background-color: coral;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.tondo {
+
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid black;
+    overflow: hidden;
+
+}
+
+
+#immagine {
+
+    width: 100%;
+    height: auto;
+
+}
+
+.rotate {
+
+    animation: spin 1s linear infinite;
+
+}
+
+@keyframes spin {
+
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+
+}
